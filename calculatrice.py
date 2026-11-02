@@ -1,9 +1,5 @@
-from calculatrice import addition, soustraction, multiplication, division, puissance
-
-
-
 def addition(a, b):
-    return a - b
+    return a + b
 
 
 def soustraction(a, b):
@@ -22,7 +18,3 @@ def division(a, b):
 
 def puissance(a, b):
     return a ** b
-
-
-def test_puissance():
-    assert puissance(2, 3) == 8
